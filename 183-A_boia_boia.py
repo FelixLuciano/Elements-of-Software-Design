@@ -6,3 +6,17 @@
 # 2{\pi^2}R{r^2}
 # Crie uma função que receba o peso da boia (P), o raio interno da boia (R) e o raio da seção transversal (r). Os valores do peso (P) serão dados em Kg e os valores dos raios (R) e (r) em centímetros. Se a boia boiar a função deverá retornar True, caso contrário deverá retornar False.
 # O nome da sua função deve ser 'will_it_float'.
+
+import math
+
+water_density = 0.997 # in g/m³
+
+def will_it_float (weight, radius_R, radius_r):
+    weight_in_grams = weight * 1000
+    volume = 2 * math.pi**2 * radius_R * radius_r**2
+    density = weight_in_grams / volume
+
+    if density > water_density:
+        return False
+    else:
+        return True

@@ -32,3 +32,23 @@
 #         'Achocolatado': 0.3
 #     }
 # O nome da sua função deve ser 'compras_da_semana'.
+
+def compras_da_semana (recipes, foods):
+    # Dicionário com os ingredientes e a quantidade total para a receita de todos os pratos
+    groceries = {}
+    
+    for food in foods:
+        # Encontra a receita para o prato 
+        recipe = recipes[food]
+        
+        # Contabiliza a quantidade de cada ingrediente no dicionário
+        for ingredient, amount in recipe.items():
+            if not ingredient in groceries:
+                groceries[ingredient] = 0
+            
+            groceries[ingredient] += amount
+            
+    return groceries
+
+# Feedback do professor:
+# "muito bom, parabéns"

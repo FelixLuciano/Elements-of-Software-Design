@@ -13,3 +13,19 @@
 #         'Variável inexistente': 20.25,
 #     }
 # O nome da sua função deve ser 'calcula_porcentagens'.
+
+def calcula_porcentagens (issues):
+    # Conta o total de ocorrências
+    total_occurreces = sum(issues.values())
+    
+    # Dicionário de ocorrências em porcentagem
+    occurrence_percentage = {}
+    
+    # Contabiliza para o dicionário as ocorrências em porcentagem
+    for issue, occurrence in issues.items():
+        occurrence_percentage[issue] = occurrence / total_occurreces * 100
+        
+    return occurrence_percentage
+
+# Feedback do professor:
+# "muito bom"

@@ -8,3 +8,17 @@
 # tom_maior = [[9.9, 9.9, 10, 9.9], [10, 9.9, 9.8, 10], [10, 10, 10, 10], [10, 10, 10, 10], [10, 9.9, 9.9, 10], [9.9, 10, 10, 10], [10, 10, 9.9, 9.9], [0.0, 9.9, 10, 9.9], [10, 9.8, 10, 10]]
 # A nota da escola Tom Maior é: 269.3
 # O nome da sua função deve ser 'calcula_escola'.
+
+def calcula_escola (issues):
+    final_score = 0
+
+    for points in issues:
+        score = 0
+
+        for point in points:
+            score += point
+
+        score -= min(points)
+        final_score += score
+
+    return final_score

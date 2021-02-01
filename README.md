@@ -19,3 +19,25 @@
 
 ### O que é?
 Repositório com os exercícios de programação em Python realizados na diciplina ao longo do segundo semestre de 2020.
+
+### Avaliação intermediária
+
+| Questão                                                                    |   Nota   |
+|:---------------------------------------------------------------------------|:--------:|
+| [182 - Rimas](blob/main/Rimas.py)                                          |    2.0   |
+| [183 - A boia boia?](blob/main/A_boia_boia.py)                             |    2.0   |
+| [184 - Nomes com vogais](blob/main/Nomes_com_vogais.py)                    |    2.0   |
+| [185 - Nota das escolas de samba](blob/main/Notas_das_escolas_de_samba.py) |    2.0   |
+| [186 - Extensão do rio](blob/main/Extensão_do_rio.py)                      |    2.0   |
+| **TOTAL**                                                                  | **10.0** |
+
+### Avaliação final
+
+| Questão                                                                   |   Nota   |
+|:--------------------------------------------------------------------------|:--------:|
+| [192 - Aproxima raiz quadrada](blob/main/Aproxima_raiz_quadrada.py)       |    2.0   |
+| [193 - Quantos dias se passaram?](blob/main/Quantos_dias_se_passaram.py)  |    2.0   |
+| [194 - Vencedor do jogo da velha](blob/main/Vencedor_do_jogo_da_velha.py) |    2.0   |
+| [195 - Porcentagens de erros](blob/main/Porcentagens_de_erros.py)         |    2.0   |
+| [196 - Compras da semana](blob/main/Compras_da_semana.py)                 |    2.0   |
+| **TOTAL**                                                                 | **10.0** |

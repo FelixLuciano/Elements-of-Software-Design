@@ -25,3 +25,16 @@
 # - A chamada classifica_rima("ados", "mento", "mento", "inha ") deve devolver "outra"
 # - A chamada classifica_rima("ada", "ada", "ada", "ada") deve devolver "outra"
 # O nome da sua função deve ser 'classifica_rima'.
+
+def classifica_rima (*rima):
+    if rima[0] == rima[2] and rima[1] == rima[3] and not rima[0] == rima[1]:
+        return "alternada"
+    elif rima[0] == rima[1] and rima[2] == rima[3] and not rima[0] == rima[2]:
+        return "emparelhada"
+    elif rima[0] == rima[3] and rima[1] == rima[2] and not rima[0] == rima[1]:
+        return "interpolada"
+    else:
+        return "outra"
+
+# Feedback do professor:
+# "Não precisava receber como *args. Como o código sempre assume que são exatamente 4 argumentos, os erros seriam mais claros se fossem recebidos 4 argumentos explicitamente."
