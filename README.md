@@ -1,4 +1,4 @@
-[Andrew Kurauchi, Phd](https://github.com/toshikurauchi). Design de Software. [Insper](https://github.com/Insper), 2020.
+[Andrew Kurauchi, Ph.D](https://github.com/toshikurauchi). Design de Software. [Insper](https://github.com/Insper), 2020.
 
 # Elements of Software Design
 
